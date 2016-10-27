@@ -1,0 +1,18 @@
+<md-button class="md-raised" ng-href="#/jump">返回首页</md-button>
+
+<div id="container" style="height: 500px"></div>
+
+<div ng-repeat="x in mapInfo">
+    <li class="map-li" style="display: block; margin: 10px ">
+        <div>
+            <div>
+                <span class="fs16">{{x.num}}.</span>
+                <span class="fs16">{{x.id}}</span>
+            </div>
+            <div class="mt10">
+                <span class="map-list-address fs14">{{x.address}}</span>
+            </div>
+        </div>
+    </li>
+</div>
+<tm-pagination conf="paginationConf"></tm-pagination>

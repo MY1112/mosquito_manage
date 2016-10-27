@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- jia-->
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- jia-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="lib/bootstrap/3.2.0/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/angular-material.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="lib/angular-1.5.8/angular.min.js"></script>
+    <script src="lib/angular-1.5.8/angular-route.js"></script>
+    <script src="lib/av-min-1.2.1.js"></script>
+
+    <!--<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>-->
+    <script src="tinymce/js/tinymce/tinymce.min.js"></script>
+
+    <!-- jia-->
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=zqUiOGvjZ6SDByHeKGj5a37BEFrT9qoG"></script>
+    <!-- jia-->
+
+    <script src="lib/angular-animate.min.js"></script>
+    <script src="lib/angular-aria.min.js"></script>
+    <script src="lib/angular-messages.min.js"></script>
+    <script src="lib/angular-material.min.js"></script>
+
+
+    <script src="routes.js"></script>
+    <script src="pagination.js"></script>
+    <script src="controller/controller.js"></script>
+    <script src="controller/jump.js"></script>
+    <script src="controller/homeController.js"></script>
+    <script src="controller/loginController.js"></script>
+    <script src="controller/articleController.js"></script>
+    <script src="controller/addController.js"></script>
+    <script src="controller/changeController.js"></script>
+    <script src="controller/manage.js"></script>
+    <script src="controller/manageImg.js"></script>
+    <script src="controller/chooseProvinceController.js"></script>
+    <script src="controller/mapController.js"></script>
+    <script src="directive.js"></script>
+    <script src="services.js"></script>
+
+</head>
+<body ng-app='routingDemoApp' ng-controller="myCtrl">
+<md-toolbar class="md-hue-1">
+    <div class="md-toolbar-tools">
+        <!--<md-button class="md-raised" ng-show="panduan">隐藏</md-button>-->
+        <span flex></span>
+        <md-button class="md-raised" ng-click="logout()"z>登出</md-button>
+    </div>
+</md-toolbar>
+
+<div class="home_page" style="float: left;width: 100%;">
+    <div ng-view></div>
+</div>
+
+</body>
+</html>

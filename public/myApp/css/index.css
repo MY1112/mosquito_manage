@@ -1,0 +1,104 @@
+.add_article{
+    margin-left: 70px;
+}
+.publish_article{
+    margin-left: 90%;
+}
+.articleTable th, .articleTable td {
+    border:1px solid #8b8b8b;
+}
+.articleTable {
+    width: 40%;
+    border-collapse: collapse;
+    margin: 15px 16px 40px 16px;
+}
+.articleTable th {
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+}
+.articleTable td {
+    padding-top: 10px;
+    vertical-align: top;
+    height:40px;
+    text-align: center;
+}
+.page-list .pagination {
+    float: left;
+}
+
+.page-list .pagination span {
+    cursor: pointer;
+}
+
+.page-list .pagination .separate span {
+    cursor: default;
+    border-top: none;
+    border-bottom: none;
+}
+
+.page-list .pagination .separate span:hover {
+    background: none;
+}
+
+.page-list .page-total {
+    float: left;
+    margin: 25px 20px;
+}
+
+.page-list .page-total input, .page-list .page-total select {
+    height: 26px;
+    border: 1px solid #ddd;
+}
+
+.page-list .page-total input {
+    width: 40px;
+    float: right;
+    padding-left: 3px;
+}
+
+.page-list .page-total select {
+    width: 50px;
+}
+.img_supervise {
+    margin-left: 18%;
+    margin-top: 100px;
+    width: 20%;
+    height: 300px;
+}
+.img_supervise md-icon {
+    width: 80%;
+    height: 260px;
+}
+.article_supervise {
+    margin-top: 100px;
+    width: 20%;
+    height: 300px;
+}
+.article_supervise md-icon {
+    width: 80%;
+    height: 260px;
+}
+.map_supervise {
+    margin-top: 100px;
+    width: 20%;
+    height: 300px;
+}
+.map_supervise md-icon {
+    width: 80%;
+    height: 260px;
+}
+.ueditor {
+    width: 800px;
+}
+.panel {
+    width: 800px;
+}
+.get_identifying_code {
+    width: 100%;
+    height: 38px;
+    background-color: rgb(255,87,34);
+    border-radius: 3px;
+    border: 0;
+    color:#FFFBF4;
+}

@@ -1,0 +1,28 @@
+<div layout="column" style="z-index: 9999;width: 500px;margin-left: auto;margin-right: auto;">
+    <md-content class="md-no-momentum">
+        <md-card>
+            <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">登录</span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content layout="column" layout-align="space-between">
+                <md-input-container class="md-icon-float md-block">
+                    <label>手机号</label>
+                    <input ng-model="loginPhone" type="text">
+                </md-input-container>
+                <md-card-actions layout="column">
+                    <input type="button" class="get_identifying_code" id="btn" value="免费获取验证码" />
+                </md-card-actions>
+                <md-input-container class="md-icon-float md-block">
+                    <label>验证码</label>
+                    <input ng-model="loginCode" type="text">
+                </md-input-container>
+
+                <md-card-actions layout="column">
+                    <md-button class="md-raised md-warn" ng-click="manage_login()">登录</md-button>
+                </md-card-actions>
+            </md-card-content>
+        </md-card>
+    </md-content>
+</div>

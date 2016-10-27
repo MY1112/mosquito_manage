@@ -1,0 +1,21 @@
+<md-button class="md-raised" ng-href="#/the_article">返回文章列表</md-button><br>
+<span>文章名称: <input type="text" ng-model="article_title"></span><br>
+<br><span>
+<label for="favorite_team">文章类型: </label>
+<input type="text" name="team" id="favorite_team" list="team_list" ng-model="article_type">
+<datalist id="team_list">
+    <option>叮后处理</option>
+    <option>防蚊灭蚊</option>
+    <option>蚊传疾病</option>
+    <option>蚊虫那些事</option>
+</datalist></span>
+<br>
+<br><span>文章内容: <br></span>
+<input type="file" id="photoFileUpload" style="display: none"/>
+<textarea>
+
+</textarea>
+
+
+
+<md-button class="publish_article md-raised md-accent md-hue-3" ng-click="publish_article()">发表</md-button>
